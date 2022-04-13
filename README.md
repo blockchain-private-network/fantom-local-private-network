@@ -28,7 +28,7 @@ attach console
 ./attach.sh
 ```
 
-send transact
+send transaction
 
 ```js
 ftm.sendTransaction(

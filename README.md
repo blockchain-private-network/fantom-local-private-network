@@ -16,19 +16,19 @@ Specify your geth client path in `_param.sh`, then:
 
 ## Per-funded address
 
-pre-funded address: ./exec.sh 'ftm.accounts[0]'
+Pre-funded address: ./exec.sh 'ftm.accounts[0]'
 
-getBalance: ./exec.sh 'ftm.getBalance(ftm.accounts[0])'
+Get balance: ./exec.sh 'ftm.getBalance(ftm.accounts[0])'
 
 ## Send funds
 
-attach console
+Attach console
 
 ```bash
 ./attach.sh
 ```
 
-send transaction
+Send transaction
 
 ```js
 ftm.sendTransaction(

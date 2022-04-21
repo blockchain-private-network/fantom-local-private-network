@@ -6,7 +6,7 @@ By default, it's a 3 node (all of them are miner) network connect with each othe
 
 ## Get started
 
-Specify your geth client path in `_param.sh`, then:
+Specify your `opera` client path in `_param.sh`, then:
 
 - start network: `./start.sh`
 - execute cmd: `./exec.sh [CMD]` e.g. `./exec.sh 'ftm.getBalance(ftm.accounts[0])'`
@@ -16,9 +16,9 @@ Specify your geth client path in `_param.sh`, then:
 
 ## Per-funded address
 
-Pre-funded address: ./exec.sh 'ftm.accounts[0]'
+Pre-funded address: `./exec.sh 'ftm.accounts[0]'`
 
-Get balance: ./exec.sh 'ftm.getBalance(ftm.accounts[0])'
+Get balance: `./exec.sh 'ftm.getBalance(ftm.accounts[0])'`
 
 ## Send funds
 
